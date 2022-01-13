@@ -1,0 +1,14 @@
+.base-content-frame {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px 30px; 
+    display: flex;
+    flex-direction: column;
+    .frame__content {
+        flex: 1;
+    }
+    .area-header__title {
+        font-size: 24px;
+        font-family: Notosans-Semibold;
+    }
+}

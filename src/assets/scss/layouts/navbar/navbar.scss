@@ -1,0 +1,21 @@
+$color: #62ad00;
+$height: 40px;
+
+.navbar {
+    height: $height;
+    width: 100%;
+    background-color: $color;
+    display: flex;
+    .navbar__item {
+        min-width: 100px;
+        padding: 10px;
+        color: #fff;
+        font-family: Notosans-Semibold;
+        transition: all 0.3s ease;
+        &.selected, &:hover {
+            background-color: #fff;
+            color: $color;
+            cursor: pointer;   
+        }
+    }
+}
